@@ -1,7 +1,7 @@
 const User = require("../models/user");
 const CryptoJS = require("crypto-js");
 const jsonwebtoken = require("jsonwebtoken");
-const user = require("../models/user");
+const User = require("../models/user");
 const register = async (req, res) => {
   const { password } = req.body;
   try {
